@@ -1,0 +1,55 @@
+
+    body {
+        background-image: url("img/background@1x.png");
+      }
+    h1{
+        font-family: 'DynaPuff', cursive;
+		font-weight: normal;
+        font-weight:bold;
+		text-align: center;
+		color: #fef1e5;
+        font-weight:700;
+        font-style:normal;
+        padding-top:5%;
+        font-size: 68pt;
+    }
+    h5 {
+		font-family: 'DynaPuff', cursive;
+		font-weight: normal;
+        font-weight:bold;
+		text-align: center;
+		color: #ff7701;
+        font-weight:700;
+        font-style:normal;
+        font-size: 38pt;}
+    h6 {
+        font-family: 'Kanit', sans-serif;
+        font-size:26px;
+        font-weight:lighter;
+        padding:5px;}
+    .custom-control-label {
+        color: #ffa352;
+        font-family: 'Kanit', sans-serif;
+        font-size:20px; 
+        padding-top: 1%;
+        padding-bottom: 1%;
+     }
+     .row {
+        padding:4%;
+        padding-top:3%;
+     }
+     .quizsubmitbutton{
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 25%;
+        padding-right:25%; 
+     }
+     .naviboard {
+        text-align: center;
+        font-family: 'DynaPuff', cursive;
+        font-weight:bold;
+        font-size:46px;
+        padding: 50px;
+        background-color:#fef1e5; 
+        padding-bottom:2%;
+        clear: both;}

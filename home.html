@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous"
+/>
+<head>
+    
+<script language="JavaScript" type="text/javascript" src="home.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="home.css">
+
+</head>
+
+<html>
+  <body>
+    <div class="divpage">
+      <div class="headboard">
+    <h1 class="heading">ANIMAL-MAL</h1>
+  </div>
+  <div class="logo">
+    <img class="logoimg" src="img/logo@2x.png"/>
+</div>  
+  </div>
+  <nav class="naviboard">
+    <a href="home.html">Home</a> | 
+      <a href="animalepHomepage.html">Gallery</a> |
+      <a href="quiz.html">QUIZ</a> |
+    </nav>
+    <div class="headimagediv">
+      <img class="headimage" src="img/pethomepage@1x.png"/>
+    </div>
+    <div class="threecard">
+    <div class="card">
+      <img class="card-img-top" src="img/event01-image@3x.png" />
+      <div class="card-body">
+        <h2 class="eventname">Play with Hamster</h2>
+        <p>Location: 350 Victoria St, Toronto, ON M5B 2K3</p>
+        <p>Recommended age of consent: 4-12</p>
+        <p>Event Time: Nov 29, 2022, 15:00-18:00</p>
+        <p>Event Capacity: 10 children (one family member is allowed)</p>
+        <button id="hamster" type="button" onclick="checkAvailabillity(this.id)">
+            Check Availabillity
+          </button>
+      </div>
+    
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="img/event02-image@3x.png" />
+        <div class="card-body">
+          <h2 class="eventname">Play with Dog</h2>
+          <p>Location: 350 Victoria St, Toronto, ON M5B 2K3</p>
+          <p>Recommended age of consent: 6-12</p>
+          <p>Event Time: Dec 01, 2022, 15:00-18:00</p>
+          <p>Event Capacity: 15 children (one family member is allowed)</p>
+          <button id="dog" type="button" onclick="checkAvailabillity(this.id)">
+            Check Availabillity
+          </button>
+        </div>
+      
+      </div>
+          <div class="card">
+        <img class="card-img-top" src="img/event03-image@3x.png" />
+        <div class="card-body">
+          <h2 class="eventname">Play with Cat</h2>
+          <p>Location: 350 Victoria St, Toronto, ON M5B 2K3</p>
+          <p>Recommended age of consent: 5-12</p>
+          <p>Event Time: Dec 08, 2022, 15:00-18:00</p>
+          <p>Event Capacity: 20 children (one family member is allowed)</p>
+          <button id="cat"type="button" onclick="checkAvailabillity(this.id)">
+            Check Availabillity
+          </button>
+        </div>
+        
+    <div>
+        <div class="signupSection">
+            <h2 class="signuptext">Sign Up the event</h2>
+            <p class="signuptextinfo">please enter the follow information</p>
+      <form>
+        <div class="form-group">
+          <select id="eventType" class="form-control">
+            <option selected>Choose the event</option>
+            <option value="1">Play with Hamster</option>
+            <option value="2">Play with Dog</option>
+            <option value="3">Play with Cat</option>
+          </select>
+        </div>
+      </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Participant Name"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="age"
+            placeholder="Age of the Participant"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="email"
+            placeholder="Guardien's Email"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="phone"
+            placeholder="Guardien's Phone Number"
+          />
+        </div>
+      </form>
+      <div class="messageBox">
+      <p id="messageBox"></p>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg btn-block" id="clean" onclick="cleanForm()">
+        CLEAN
+      </button>
+      <button
+        type="button"
+        class="btn btn-secondary btn-lg btn-block"
+        id="submit"
+        onclick="submitForm()"
+      >
+        SUBMIT
+      </button>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

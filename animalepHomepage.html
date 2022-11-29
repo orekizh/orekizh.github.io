@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<title>Animal-mal Gallery page</title>
+<link rel="stylesheet" type="text/css" href="animalephomepage.css">
+</head>
+<body>
+    <nav class="naviboard">
+        <a href="home.html">Home</a> | 
+          <a href="animalepHomepage.html">Gallery</a> |
+          <a href="quiz.html">QUIZ</a> |
+        </nav>
+    <div class="pandapart">
+	<h1 id="Panda"> PANDA <br></h1>
+	<div class="image1center">
+	<img src= "img/panda-stamp@2x.png" width= "636.8" height= "636.8"/> <br><br>
+    <form action="PandaPhoto.html"> 
+    </div>
+    <input type="submit" value="Panda Photo" id="button1"> 
+    </form>
+    <form action="PandaVideo.html"> 
+    <input type="submit" value="Panda Video" id="button2"> 
+    </form>
+</div>
+    <div class="lionpart"> 
+	<h2 id="Lion"> LION <br></h2> 
+	<div class="image2center">
+	<img src= "img/lion-stamp@2x.png" width= "636.8" height= "636.8"/> <br><br>
+    <form action="LionPhoto.html"> 
+    </div>
+    <input type="submit" value="Lion Photo" id="button3"> 
+    </form>
+    <form action="LionVideo.html"> 
+    <input type="submit" value="Lion Video" id="button4"> 
+    </form>
+</div>
+<div class="penguinpart">
+    <h3 id="Penguin"> PENGUIN <br></h3>
+	<div class="image3center">
+	<img src= "img/penguin-stamp@2x.png" width= "636.8" height= "636.8"/> <br><br>
+    <form action="PenguinPhoto.html"> 
+    </div>
+    <input type="submit" value="Penguin Photo" id="button5"> 
+    </form>
+    <form action="PenguinVideo.html"> 
+    <input type="submit" value="Penguin Video" id="button6"> 
+    </form>
+</div>
+    <script>
+        var heading1 = document.querySelector("#Panda");
+        var heading2 = document.querySelector("#Lion");
+        var heading3 = document.querySelector("#Penguin");
+
+        heading1.addEventListener("mouseover", changeText1);
+        heading1.addEventListener("mouseout", changeText2);
+        heading2.addEventListener("mouseover", changeText3);
+        heading2.addEventListener("mouseout", changeText4);
+        heading3.addEventListener("mouseover", changeText5);
+        heading3.addEventListener("mouseout", changeText6);
+
+        function changeText1() {
+            heading1.textContent = "The giant panda (Ailuropoda melanoleuca), also known as the panda bear (or simply the panda), is a bear species endemic to China.[4] It is characterised by its bold black-and-white coat and rotund body. Despite its taxonomic classification as a carnivoran, the giant panda's diet is primarily herbivorous, consisting almost exclusively of bamboo.";
+        }
+        function changeText2() {
+            heading1.textContent = "PANDA";
+        }
+        function changeText3() {
+            heading2.textContent = "SThe lion (Panthera leo) is a large cat of the genus Panthera native to Africa and India. It has a muscular, broad-chested body, short, rounded head, round ears, and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male lions are larger than females and have a prominent mane.";
+        }
+        function changeText4() {
+            heading2.textContent = "LION";
+        }
+        function changeText5() {
+            heading3.textContent = "Penguins are a group of aquatic flightless birds. They live almost exclusively in the Southern Hemisphere: only one species, the Galápagos penguin, is found north of the Equator. Highly adapted for life in the water, penguins have countershaded dark and white plumage and flippers for swimming.";
+        }
+        function changeText6() {
+            heading3.textContent = "PENGUIN";
+        }
+    </script>   
+</body>
+</html>

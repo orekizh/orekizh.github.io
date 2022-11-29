@@ -1,0 +1,50 @@
+
+
+.photo_mian{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+
+body{
+  background-color: #fdfae3;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+
+.photogallery{
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 42px;
+}
+
+
+
+td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+th {
+  border: 24px;
+  text-align: center;
+  padding: 8px;
+}
+
+.naviboard {
+  text-align: center;
+  font-family: 'DynaPuff', cursive;
+  font-weight:bold;
+  font-size:46px;
+  padding: 50px;
+  background-color:#fef1e5; 
+  padding-bottom:2%;
+  clear: both;}
+

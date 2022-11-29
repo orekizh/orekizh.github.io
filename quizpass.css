@@ -1,0 +1,54 @@
+
+    body {
+        background-image: url("img/background@1x.png");
+      }
+    h1 {
+		font-family: 'DynaPuff', cursive;
+		font-weight: normal;
+        font-weight:bold;
+		text-align: center;
+		color: #ff7701;
+        font-weight:700;
+        font-style:normal;
+        font-size: 48pt;
+        margin-left:auto;
+        margin-right:auto;
+        padding-top:10%;
+    }
+    .backtoquiz{
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 25%;
+        padding-right:25%;
+        padding-top: 3%;
+    }
+    .penguinsticker{
+        width:20%;
+        height:20%;
+        padding:5%;
+        margin-left:17%;
+        margin-right:1%;
+    }
+    .lsticker{
+        width:20%;
+        height:20%;
+        padding:5%;
+        margin-left:1%;
+        margin-right:1%;
+    }
+    .pandasticker{
+        width:20%;
+        height:20%;
+        padding:5%;
+        margin-left:1%;
+        margin-right:17%;
+    }
+    .naviboard {
+        text-align: center;
+        font-family: 'DynaPuff', cursive;
+        font-weight:bold;
+        font-size:46px;
+        padding: 50px;
+        background-color:#fef1e5; 
+        padding-bottom:2%;
+        clear: both;}
